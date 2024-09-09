@@ -1,0 +1,2119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Parallax Effect | Pure CSS</title>
+        <link rel="stylesheet" href="style1%20origuinal.css" />
+        
+        
+        
+<link rel="stylesheet" href="styles/zSlider.css"> 
+    
+<link rel="stylesheet" href="debug.css">
+    
+  
+    <script>
+      function downLoad(){
+        if (document.all){
+            document.all["layer1"].style.visibility="none";
+            document.all["layer2"].style.visibility="none";
+        } else if (document.getElementById){
+            node = document.getElementById("layer1").style.visibility='none';
+            style.display='none';
+            node = document.getElementById("layer2").style.visibility='visible';
+        }
+      }
+    </script>
+   <style type="text/css">
+       
+</style>
+    <style type="text/css">
+       
+        
+.item{
+position: relative;
+            
+display: inline-block;
+        }
+.img{
+position: absolute;
+width: 100%; 
+height: 100%;
+display: inline;
+            
+        }
+.item {
+margin-top:  5%;
+cursor:pointer;
+transition: transform 4.2s;
+width: 10%; 
+height: 50%;
+display: inline-block;
+    
+}
+.item:focus,
+.item:hover {
+transform: scale(1.4);
+z-index: 5;
+position: relative;
+transition: transform 2.2s;	
+    
+}
+
+        
+        
+    </style>
+  
+        
+        
+        
+   <style type="text/css">
+       
+</style>
+    
+  
+</head>
+    
+    
+    <input type="checkbox" id="btn-nav" class="checkbox">
+    <heade>
+      <div class="heade-container">
+        
+        
+      </div>
+    </heade>
+    <label for="btn-nav" class="btn-label">
+          <div class="heade-button"><img src="boton.gif" style="height: 5%; width: 5%; position: relative;"></div>
+        </label>
+    <nav class="menu">
+      <ul><h1>
+        <a class="genero" href="#contenedor1">Aventura </a>
+          <a class="genero" href="#">Comedia</a>
+          <a class="genero" href="#">Animacion</a>
+        
+        
+      </h1></ul>      
+      <ul>
+        <a href="" class="icon-facebook"></a>
+        <a href="" class="icon-twitter"></a>
+        <a href="" class="icon-youtube"></a>
+        <a href="" class="icon-instagram"></a>
+      </ul>      
+    </nav>
+    
+     
+    <body>
+<figure id="video_player">
+	<video class="video-background" autoplay >
+		<source src="nambia1.mp4" type="video/mp4">
+		<source src="nambia1.webm" type="video/webm">
+	</video>
+   
+     
+     
+<div class="logo"><img src="letras%20cartel.gif" /></div>        
+          
+		
+ <div class="container">
+     
+<div class="slides">
+    <div class="ico"><img  class="ka" src="iconos/bob%20esponja%20al%20rescate.gif"></div>
+    
+<section class="content">
+      
+      
+      
+      
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-1">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red1" src="animaciones/2019-2020/2020%20Bob%20Esponja-%20Al%20Rescate%20.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez1()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez1()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Bob Esponja y Patricio deciden viajar a la ciudad perdida de Atlantic City para encontrar a Gary, el caracol.Bob Esponja y Patricio deciden viajar a la ciudad perdida de Atlantic City para encontrar a Gary, el caracol.
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+    <div class="ico"><img  class="ka" src="iconos/angri%20birds%202.gif"></div> 
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-2">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red2" src="animaciones/2019-2020/2019%20Angry%20Birds%202.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez2()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez2()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">
+              
+En esta nueva aventura, tanto los cerdos como los pájaros tendrán que aunar sus fuerzas para hacer frente a Zeta, la villana interpretada por Leslie Jones. Zeta ha venido desde su isla helada en busca de un lugar más cómodo para vivir, pero su llegada está a punto de poner la vida de Red (Jason Sudeikis), Chuck (Josh Gad), Bomb (Danny McBride), Leonard (Bill Hader) y compañía patas arriba. Secuela de la película 'Angry Birds'
+    (2019)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+    <div class="ico"><img  class="ka" src="iconos/toy%20story4.gif"></div>  
+<section class="content">
+	
+      
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+   <div class="popup" id="popup-3">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red3" src="animaciones/2019-2020/2019%20Toy%20Story%20%204.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez3()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez3()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Cuando un nuevo juguete llamado Forky se une a Woody y el resto del grupo, un viaje en carretera junto a viejos y nuevos amigos revela qué tan grande puede ser el mundo para un juguete.
+            (2019)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/ben%2010.gif"></div>
+<section class="content">
+	
+      
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-4">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red4"  controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg"  playsinline  loop>
+  
+<source 
+        
+ src="animaciones/2019-2020/2020%20%20Ben%2010%20vs.%20the%20Universe-.mp4">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez4()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez4()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Cuando una explosión del pasado de Ben, Vilgax, regresa para hacer el doble de daño en el Equipo Tennyson y en el planeta Tierra, Ben debe ir al interestelar para salvar el día mientras Gwen y el abuelo Max se unen a Kevin para proteger el mundo en ausencia de Ben, pero cuando nuestro héroe chico se confunde con el villano en el espacio, Ben se ve obligado a defenderse en la prueba de un siglo.
+            (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+          
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/la%20liga%20de%20los%205.gif"></div>
+<section class="content">
+	
+      
+
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-5">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red5" src="animaciones/2019-2020/2020%20La%20Liga%20de%20los%205.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez5()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez5()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Cuando su hermana es secuestrada, Chema recurre a la legendaria Liga de los 5 para que le ayuden a rescatarla. ¿Qué quiénes son ésos? ¡Pues el máximo equipo de superhéroes que haya existido jamás en México! ¡Poderosos, valientes y temerarios! Lamentablemente, eso fue hace mucho tiempo y de aquellos aguerridos superhéroes, no queda mucho.
+            (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/frozen%20ll.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-6">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red6" src="animaciones/2019-2020/2019%20Frozen%202.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez6()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez6()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">¿Por que Elsa nació con poderes mágicos? La respuesta la esta llamando y amenazando su reino. Junto con Ana, Kristoff, Olaf y Sven, se embarcaran en un peligroso, pero extraordinario viaje. Secuela de "Frozen. El reino del hielo" (2013), el film de animación más taquillero de la historia del cine, ganador del Oscar a la mejor película animada. Reunirá al mismo equipo artístico y técnico de la original
+            (2019)
+    </p>
+		  
+      
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/mas%20alla%20de%20la%20luna.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-7">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red7" src="animaciones/2019-2020/2020%20M%C3%A1s%20All%C3%A1%20de%20La%20Luna.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez7()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez7()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Una niña inteligente, decidida y enamorada de la ciencia construye un cohete para viajar a la Luna y demostrar la existencia de una legendaria diosa. Allí la pequeña, de nombre Fei Fei, se verá envuelta en una inesperada aventura y descubrirá un enigmático mundo de criaturas fantásticas. Una historia fantástica sobre una niña con un adorable compañero animal que construye su propio cohete y vuela a la luna para hacer frente a la pérdida de su madre tiene todos los ingredientes de un clásico de Disney.
+            (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/teen%20titans%20go%20vs%20teen%20titans.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red8" src="animaciones/2017-2018/2018%20Hotel%20Transylvania%203.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez8()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">El quinteto cómico de la actualidad se enfrenta a sus contrapartes del 2003 cuando villanos de cada uno de sus mundos unen fuerzas para poner a los dos equipos de Titanes unos contra los otros.
+              (2019)
+              
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/nivel%20intrepidos.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-9">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red9" src="animaciones/2019-2020/2020%20La%20Liga%20de%20los%205.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez9()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez9()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Un jugador adolescente se convierte en niñero a tiempo completo tras la aparición de tres bebés superpoderosos en su casa.
+         Un jugador adolescente se convierte en niñero a tiempo completo tras la aparición de tres bebés superpoderosos en su casa.
+              (2020)
+              
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+     
+     
+     
+     
+     
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/un%20amio%20abominable.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-11">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red11" src="animaciones/2019-2020/2019%20Un%20amigo%20abominable.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez11()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez11()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Yi es una adolescente más en la enorme ciudad de Shanghai. Un día, se encuentra a un joven yeti en la azotea de su edificio. La supuestamente “abominable” criatura, que se ha escapado del laboratorio donde estaba encerrado, está siendo buscada por toda la ciudad. Junto con sus ingeniosos amigos Jin y Peng, Yi decide ayudarle a huir, le bautizan como “Everest” y los cuatro se embarcan en una épica aventura para reunir a la mítica criatura con su familia en el pico más alto del mundo. Preestreno: Festival de Toronto 2019.
+              (2019)
+              
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/alien%20x%20mas.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-12">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red12" src="animaciones/2019-2020/2020%20Alien%20Xmas.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez12()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez12()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description"> Cuando unos extraterrestres intentan robar la gravedad de la Tierra, solo Papá Noel, sus ayudantes elfos y un pequeño Alien llamado X, pueden salvar el mundo y también el espíritu de la Navidad.
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/scooby.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-13">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red13" src="animaciones/2019-2020/2020%20%C2%A1Scooby!%20.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez13()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez13()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">SCOOBY nos cuenta como se conocieron los amigos Scooby y Shaggy y cómo se unieron a los jóvenes detectives Fred, Velma y Daphne para formar la famosa agencia de detectives Mystery Inc. Ahora, con cientos de casos resueltos y aventuras compartidas, Scooby y la pandilla se enfrentan al misterio más gigantesco y complicado de sus carreras: un complot para que el perro fantasma Cerbero campe a sus anchas por el mundo. Mientras corren a toda prisa para detener esta "perroapocalipsis" mundial, la pandilla descubre que Scooby tiene un legado secreto y un destino épico mayor de lo que nadie imaginaba.
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/phineas%20and%20ferb.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-14">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red14" src="animaciones/2019-2020/2020%20Phineas%20y%20Ferb%20Candace%20contra%20el%20Universo.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez14()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez14()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">En esta nueva aventura, los populares hermanastros Phineas y Ferb emprenden un viaje a través de la galaxia para rescatar a su hermana Candace, que ha sido secuestrada por alienígenas. Pero, una vez en el espacio exterior, descubrirá una utopía en un planeta lejano en el que no existen sus molestos hermanos pequeños.
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/la%20oveja%20shaun.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+    <div class="popup" id="popup-15">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red15" src="animaciones/2019-2020/2020%20la%20oveja%20shaun%20granjaguedon.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez15()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez15()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Unas extrañas luces planean sobre el cielo de Mossingham anunciando la llegada de visitantes de una lejana galaxia, pero en la granja Mossy Bottom la oveja Shaun y el resto del rebaño siguen haciendo de las suyas, muy a pesar de Bitzer, su perro pastor. Tras esta incursión, una adorable extraterrestre de asombrosos poderes se queda en la Tierra, y la oveja Shaun intentará salvarla.
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/los%20hermanos%20willoughby.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+    <div class="popup" id="popup-16">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red16" src="animaciones/2019-2020/2020%20Los%20Hermanos%20Willoughby.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez16()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez16()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Los hermanos Willoughby traman un plan astuto para enviar a sus padres de vacaciones. Los pequeños se embarcan en su propia aventura de alto vuelo para encontrar el verdadero significado de la familia.la Tierra.
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/minions.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-17">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red17" src="animaciones/2019-2020/2020%20la%20oveja%20shaun%20granjaguedon.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez17()">&times;</div>
+
+  </div>
+  </div>
+
+
+<button class="go"  onclick="galvez17()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Una joven zarigüeya se equivoca a la hora de pedir un deseo y congela toda su ciudad natal de Sanctuary City, amenazando así la vida de todos sus habitantes para revertir su deseo se encamina en una avenruta de miedo y obstaculos.
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/terra%20willy.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-18">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red18" src="animaciones/2019-2020/2019%20terra%20willy.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez18()">&times;</div>
+
+  </div>
+  </div>
+
+
+<button class="go"  onclick="galvez18()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Después de que su nave quedase reducida a cenizas, el joven Willy pierde el contacto con sus padres, con los que había viajado a través del espacio. Su cápsula aterriza en un planeta salvaje a inexplorado en el que tendrá que sobrevivir. Gracias a la ayuda de Buck, un robot de supervivencia, se enfrentaran a peligros e irán descubriendo la flora y fauna del planeta con su nuevo amigo alienígena.
+              (2019)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/escuela%20de%20miedo.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-19">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red19" src="animaciones/2019-2020/2020%20Escuela%20de%20miedo.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez19()">&times;</div>
+
+  </div>
+  </div>
+
+
+<button class="go"  onclick="galvez19()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">la historia de un joven estudiante que es transferido a un internado donde, de manera desafortunada, abre un portal hacia otra dimensión llena de monstruos.hacia otra dimensión llena de monstruos.
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+     
+     
+     
+     
+     
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/como%20entrenar%20a%20tu%20dragon%203.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-11">
+  <div class="overlay"></div>
+  <div class="content">
+
+      
+    
+    
+   <video class="red11" src="ficcion/2019-2020/2019%20Alita-%20Battle%20Angel.mp4" controls poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline  loop>
+  
+<source src="polina.webm" type="video/webm">
+<source src="polina.mp4" type="video/mp4">
+ 
+</video>
+      <div class="close-btn" onclick="galvez11()">&times;</div>
+
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez11()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Hipo descubre que Chimuelo no es el único Furia Nocturna y debe buscar el Mundo Oculto, una utopía secreta para descubrir finalmente sus destinos como dragón y jinete.
+            (2019)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/scooby%20doo.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Misterios S.A se ha retirado y no se dedicará a resolver más crímenes luego de arruinar un caso. Pero cuando Vincent van Ghoul se pone en contacto con ellos para seguir una investigación, vuelve a la acción para atrapar al 13º Fantasma.
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/promare.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Han pasado treinta años desde la aparición de Burnish, una raza de seres mutantes que empuñan llamas y que destruyeron la mitad del mundo con fuego. Cuando aparece un nuevo grupo de mutantes agresivos, comienza una batalla.
+              (2019)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/isla%20larva.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Después de pasar cinco años y medio en una isla desierta, Chuck vuelve a casa y le cuenta a una periodista sobre su vida con sus amigos larva, Rojo y Amarillo
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/dragon%20quest%20your%20story.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Luca sigue los pasos de su padre y debe encontrar al héroe que empuña la espada zenitiana para salvar a su madre de Ladja.
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+          
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/mascotas%202.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Max se enfrenta a grandes cambios: su dueña se ha casado y ha sido mamá por primera vez. En un viaje, conocerá a Rooster, un perro granjero con el que aprende a dominar sus miedos. Por otro lado, Gidget trata de recuperar el juguete favorito de Max, que está en un apartamento lleno de gatos, Snowball, además, trata de liberara un tigre de sus captores.
+              (2019)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/unidos.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Ambientado en un mundo de fantasía suburbana, dos hermanos elfos adolescentes, Ian y Barley Lightfood, se embarcan en una aventura en la que se proponen descubrir si existe aún algo de magia en el mundo que les permita pasar un último día con su padre, que falleció cuando ellos eran aún muy pequeños como para poder recordarlo.
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/trolls.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Queen Poppy y Branch hacen un descubrimiento sorprendente: hay otros mundos Troll más allá del suyo, y sus diferencias distintivas crean grandes enfrentamientos entre estas diversas tribus. Cuando una misteriosa amenaza pone en peligro a todos los Trolls de la tierra, Poppy, Branch y su banda de amigos deben embarcarse en una búsqueda épica para crear armonía entre los Trolls en disputa para unirlos en contra de cierto destino amargo
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/Steven%20Universe.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-19">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez19()">&times;</div>
+    
+    <video class="red19" controls src="animaciones/2019-2020/2020%20Escuela%20de%20miedo.mp4"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez19()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Dos años despues de los eventos de "Cambia de Parecer", Steven (ahora con 16 años) y sus amigos estan listos para disfrutar del resto de sus vidas en paz. Sin embargo, todo eso cambia cuando una nueva y siniestra Gema llega, armada con un taladro gigante que extrae la fuerza vital de todas las cosas vivan en la Tierra. En su mas grade reto las Crystal Gems deben trabajar juntas para salvar toda la vida organica en la Tierra antes de 48 horas.
+              (2019)
+    </p>
+		  
+      
+    
+</section>
+</div>
+
+     
+     
+            
+     
+     
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/ralph%20wifi.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Ralph, el malo de los videojuegos y su compañera Vanellope von Schweetz, tendrán que jugárselo todo viajando por las redes en busca de una pieza de repuesto que salve Sugar Rush, el videojuego de Vanellope. Y para complicar más las cosas, Ralph y Vanellope dependen de los ciudadanos de Internet, los llamados’ciudanets’ para que les ayuden a desenvolverse en ese peligroso mundo. Entre ellos está un empresario de Internet llamado Yesss, que es el algoritmo estrella y el alma de “BuzzTube”, la página web más de moda del momento
+              (2018)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/cars%203.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Rayo McQueen sigue siendo el mejor coche de carreras del mundo, pero ahora que es uno de los más veteranos del circuito, debe demostrar a todo el mundo que aún puede ganar una gran carrera y que no necesita jubilarse. En esta ocasión, el famoso bólido de carreras tendrá que enfrentarse a una nueva generación de corredores más jóvenes, potentes y veloces, que amenaza con cambiar el deporte de su vida. Entre ellos está el competitivo y revolucionario Jackson Storm, que no se lo pondrá nada fácil.
+              (2017)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/my%20little%20pony.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Cuando una fuerza oscura amenaza a Ponyville y el Mane 6, todos se van en un viaje hasta el final de equestria para salvar a su querida casa, y se encuentran con nuevos amigos y peligrosos desafíos a lo largo del camino.
+          (2017)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/pie%20peque%C3%B1o.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Migo es un Yeti que vive con los de su especie en un poblado en lo alto de las nevadas montañas. Aunque todos dicen lo contrario, él está convencido de realmente existen los Pies Pequeños, es decir, esos míticos monstruos salidos de las peores pesadillas que tienen unos pies anormalmente pequeños, dientes perfectos y solo tienen pelo en lo alto de la cabeza. Definitivamente, Migo no está de acuerdo en que estas criaturas solo existan en las leyendas.
+              (2018)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/hotel%20transilva%C3%B1a%203.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Nuestra familia de monstruos favorita se embarca en un crucero de lujo para que por fin Drac pueda tomarse un descanso de proveer de vacaciones al resto en el hotel. Es una navegación tranquila para la pandilla de Drac, ya que los monstruos se entregan a toda la diversión a bordo que ofrece el crucero, desde el voleibol de monstruos y las excursiones exóticas, a ponerse al día con sus bronceados de luna.
+              (2018)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/ninja%20a%20cuadros.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Un ninja poseído une sus fuerzas con un adolescente para vengar la muerte de un niño que era explotado en una fábrica local.
+              (2018)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/monkey%20magick.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Un mono de juguete cree que es el Rey Sun Wukong. Ridiculizado por sus compañeros se desplaza al mundo de la novela Viaje al Oeste y empieza una emocionante aventura.
+              (2018)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/emoji%20.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">Los protagonistas habitan la misteriosa tierra de Textopolis, donde todos los emojis favoritos de la gente cobran vida, mientras esperan ser seleccionados por el usuario del teléfono. Todos los personajes tienen una sola expresión facial a excepción de Gen (TJ Miller), un emoji que nació sin filtro y se llena de múltiples expresiones. Para lograr ser normal, Gen se embarcará en una aventura o “app-ventura”, junto a sus amigos Hi-5 y Jailbreak. Pero pronto, una gran amenaza hará que el destino de estos personajes dependa de los tres amigos, teniendo que salvar su mundo antes que sea borrado por completo.
+              (2020)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+<div class="slides">
+           <div class="ico"><img  class="ka" src="iconos/my%20hero%20academia.gif"></div>
+<section class="content">
+	
+      
+     
+      
+         <div class="metalink">
+          <b class="link" href="#">Aventura </b>
+          <b class="link" href="#">Comedia</b><b class="link" href="#">Animacion</b>
+          </div>
+          
+        <div class="meta1">
+		
+  <div class="popup" id="popup-8">
+  <div class="overlay"></div>
+  <div class="content">
+      
+    <div class="close-btn" onclick="galvez8()">&times;</div>
+    
+    <video class="red8" controls src="animaciones/"/>
+  </div>
+  </div>
+
+<button class="go"  onclick="galvez8()">go</button>
+
+   
+        
+    
+        </div>
+		  
+		  <p class="description">En el extranjero existe una ciudad gigante, flotante, creada por el hombre: I Island. La película tendrá lugar tras el arco del examen final, en verano, pero antes del arco de entrenamiento del bosque. Asimismo, se revelará más información del pasado de All Might.
+              (2018)
+    </p>
+		  
+      
+    
+</section>
+</div>
+     
+
+
+ 
+</div>     
+	
+<article>
+            <div class="z-slide-wrap top" id='slider1'>
+                <ul class="z-slide-content">
+                    
+                    
+                    
+                    
+                    <li class="z-slide-item">
+                    
+                            
+ 			
+<div class="item active"><cam href="ficcion/(2021)%20El%20ej%C3%A9rcito%20de%20los%20ladrones.mp4">
+<img src="ficcion/2019+18/(2019)%20La%20Dama%20y%20El%20Vagabundo.jpg"></cam></div>
+                        
+                        
+                        
+   <div class="item active">
+       <img src="animaciones/2019-2020/2019%20Angry%20Birds%202.jpg">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2019%20Toy%20Story%20%204.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020%20%20Ben%2010%20vs.%20the%20Universe.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020%20La%20Liga%20de%20los%205.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2019%20Frozen%202.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020%20M%C3%A1s%20All%C3%A1%20de%20La%20Luna.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2019%20%20Teen%20Titans%20Go!%20vs.%20Teen%20Titans%20.jpg" alt="si imagen">
+      </div><div class="item active">
+       <img src="animaciones/2019-2020/2020%20Nivel%20Intr%C3%A9pido%20.jpg">
+      </div>
+  
+               
+
+                       
+                    </li>
+                    
+                       
+                    <li class="z-slide-item">
+                        
+                        
+    <div class="item active">
+       <img src="animaciones/2019-2020/2019%20Un%20amigo%20abominable.jpg">
+      </div>   
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020%20Alien%20Xmas.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020%20%C2%A1Scooby!.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020%20Phineas%20y%20Ferb%20Candace%20contra%20el%20Universo.webp" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020%20la%20oveja%20shaun%20granjaguedon.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020%20Los%20Hermanos%20Willoughby.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020%20El%20%20arbol%20de%20los%20deseos.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2019%20terra%20willy.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020%20escuela%20de%20miedo.jpg" alt="si imagen">
+      </div>
+                </li>
+                    
+                    
+                    <li class="z-slide-item">
+                        
+     <div class="item active">
+       <img src="animaciones/2019-2020/2019%20como%20entrenar%20a%20tu%20drag%C3%B3n%203.jpg" alt="si imagen">
+      </div>   
+   <div class="item active">
+       <img src="animaciones/2019-2020/2019%20%20%C2%A1Scooby-Doo!%20Y%20la%20maldici%C3%B3n%20del%20fantasma%20n%C3%BAmero%2013%20.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2019%20Promare.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020%20Isla%20Larva%20La%20Pel%C3%ADcula.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2019%20Dragon%20Quest%20Tu%20historia.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2019%20Mascotas%202.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020%20unidos.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2020 Trolls 2 Gira mundial.jpg"alt="si imagen">
+    </div>
+   <div class="item active">
+       <img src="animaciones/2019-2020/2019%20Steven%20Universe%20La%20pel%C3%ADcula%20(TV).jpg" alt="si imagen">
+    </div>
+    
+                    </li>
+                    
+                 
+                    
+                    <li class="z-slide-item">
+   
+                        
+   <div class="item active">
+       <img src="animaciones/2017-2018/2018%20wifi%20ralph.jpg" alt="si imagen">
+      </div>    
+   <div class="item active">
+       <img src="animaciones/2017-2018/2017%20Cars%203.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2017-2018/2017%20My%20Little%20Pony.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2017-2018/2018%20Cesar%20Pie%20peque%C3%B1o.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2017-2018/2018%20Hotel%20Transylvania%203.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2017-2018/2018%20Ninja%20a%20cuadros.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2017-2018/2018%20Monkey%20Magic.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2017-2018/2017%20Emoji.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2017-2018/2018%20My%20Hero%20Academia-dos%20Heroes.gif" alt="si imagen">
+      </div>
+                        
+                        
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+            
+            
+    
+    
+    
+            
+            
+            
+            
+            
+            <div style="margin-top:  -35%;" class="inner-wrap">
+                <h3>1. recomendados</h3>
+                <div class="z-slide-wrap" id='slider2'>
+                    <ul class="z-slide-content">
+                        <li class="z-slide-item">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+    <div class="item">
+       <img src="animaciones/2017-2018/2018%20wifi%20ralph.jpg" alt="si imagen">
+      </div>   
+   <div class="item active">
+       <img src="animaciones/2017-2018/2017%20Cars%203.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="slider2/180x270%20(20).jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2017-2018/2018%20Monkey%20Magic.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="animaciones/2017-2018/2018%20Hotel%20Transylvania%203.jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="slider2/180x270%20(18).jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="slider2/180x270%20(14).jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="slider2/180x270%20(12).jpg" alt="si imagen">
+      </div>
+   <div class="item active">
+       <img src="slider2/180x270%20(12).jpg" alt="si imagen">
+      </div>
+                    
+                        </li>
+                        
+                        
+                        
+                        <li class="z-slide-item">
+                            <a href="#image2" style="background-image: url(/images/2.jpg)" data-uuid='2'></a>
+                        </li>
+                        <li class="z-slide-item">
+                            <a href="#image3" style="background-image: url(/images/3.jpg)" data-uuid='3'></a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </article>
+    	
+		
+	
+</figure> 
+   
+</body>
+        
+    
+    
+    
+<footer>          </footer>
+    
+ 
+     
+  
+
+    
+<script>
+        
+const slides = document.querySelectorAll('.slides');
+const dots = document.querySelectorAll('.item');
+    let slideIndex = 0;
+    showSlide();
+    function showSlide(n){
+        if(slideIndex > slides.length -1){
+            slideIndex = 0;
+        }
+        if(slideIndex < 0){
+            slideIndex = slides.length -1; 
+        }
+         for(let i=0; i<slides.length; i++){
+               slides[i].style.display = "none";
+    }
+        
+        
+    for(let i=0; i<dots.length; i++){
+       dots[i].className = dots[i].className.replace("active", "");
+    }
+        slides[slideIndex].style.display = "block";
+        dots[slideIndex].className += "active";
+    } 
+    dots.forEach((item, index) =>{
+       item.addEventListener('click', ()=>{ 
+        showSlide(slideIndex = index); 
+        
+    })
+    
+    });
+    
+    const nav = document.querySelector('.nav');
+    const prev = document.querySelector('.prev');
+    const next = document.querySelector('.next');
+    next.addEventListener('click', ()=>{
+        nav.scrollLeft += dots[0].offsetWidth;
+        showSlide(slideIndex += 1);
+        if(slideIndex === 0){
+            nav.scrollLeft = 0; 
+        }
+    })
+    
+    
+    
+    
+    
+    
+    
+        </script>        
+        
+<script>
+	var video_player = document.getElementById("video_player"),
+links = video_player.getElementsByTagName('cam');
+for (var i=0; i<links.length; i++) {
+	links[i].onclick = handler;
+}
+	
+function handler(e) {
+	e.preventDefault();
+	videotarget = this.getAttribute("href");
+	filename = videotarget.substr(0, videotarget.lastIndexOf('.')) || videotarget;
+	video = document.querySelector("#video_player video");
+	
+	source = document.querySelectorAll("#video_player video source");
+	source[0].src = filename + ".mp4";
+	source[1].src = filename + ".webm";
+	video.load();
+	video.play();    
+}	
+	
+	
+	
+	
+	
+	</script>
+    
+    
+    
+   
+    
+    <script>
+
+var vid = document.getElementById("bgvid");
+var pauseButton = document.querySelector("#polina button");
+ 
+if (window.matchMedia('(prefers-reduced-motion)').matches) {
+    vid.removeAttribute("autoplay");
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+}
+ 
+function vidFade() {
+  vid.classList.add("stopfade");
+}
+ 
+vid.addEventListener('ended', function()
+{
+// only functional if "loop" is removed 
+vid.pause();
+// to capture IE10
+vidFade();
+}); 
+ 
+ 
+pauseButton.addEventListener("click", function() {
+  vid.classList.toggle("stopfade");
+  if (vid.paused) {
+    vid.play();
+    pauseButton.innerHTML = "Pause";
+  } else {
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+  }
+})
+    
+    </script>
+    
+    
+    
+    
+    
+    
+    
+    
+     
+       <script src="scripts/zSlider.js"></script>
+    <script src="scripts/app.js"></script>
+    
+    </html>
+    
